@@ -33,12 +33,12 @@ a:hover {text-decoration:none;}
 .text-4 {font-style:italic;}
 .text-5 {font-weight:bold; color:#1b1a1a; font-size:10px; line-height:16px; text-transform:uppercase;}
 
-h2 { font-family: 'Great Vibes', cursive; font-size:48px; line-height:60px; color:#b3b3b3; font-weight:normal; }
+h2 { font-family: 'Patrick Hand', cursive; font-size:48px; line-height:60px; color:#b3b3b3; font-weight:normal; }
 h2 span {color:#937bb8;}
 .h2-border {border-bottom:#dddddd 1px solid;}
-h3 { font-family: 'Great Vibes', cursive; font-size:48px; line-height:60px; color:#937bb8; font-weight:normal; }
+h3 { font-family: 'Patrick Hand', cursive; font-size:48px; line-height:60px; color:#937bb8; font-weight:normal; }
 h3 strong { font-family: 'PT Sans Narrow', sans-serif; font-size:40px; line-height:54px; font-weight:bold; color:#b3b3b3;}
-h4 { font-family: 'Great Vibes', cursive; font-size:48px; line-height:60px; color:#937bb8; font-weight:normal; }
+h4 { font-family: 'Patrick Hand', cursive; font-size:48px; line-height:60px; color:#937bb8; font-weight:normal; }
 h4 strong { font-family: 'PT Sans Narrow', sans-serif; font-size:48px; line-height:60px; font-weight:bold; color:#b3b3b3; margin-top:-5px; display:inline-block;}
 .h4-border {border-bottom:#dddddd 1px solid;}
 
