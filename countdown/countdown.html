@@ -1,0 +1,65 @@
+    
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<head>  
+<meta charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  
+        <!-- Stylesheets -->
+
+        <link rel="stylesheet" href="css/jquery.countdown.css">
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+        <div class="loader">
+          <img src="img/loader.GIF" alt="loader">
+        </div>
+		
+<div class="countdown-container">
+	<div class="wrapper">
+		<div id="defaultCountdown"></div>	
+		<div id="cubes-wrapp">
+			<div class="element positioned item-1 days"></div>
+			<div class="element positioned item-2 linked facebook-link">
+				<a href="#" target="_blank"> chú rể </a>
+			</div>
+			<div class="element positioned item-3"></div>
+			<div class="element positioned item-4 hours"></div>
+			<div class="element positioned item-5 linked">
+				<a href="../index.html" target="_blank">Home</a>
+			</div>
+			<div class="element positioned item-6"></div>
+			<div class="element positioned item-7 minutes"></div>
+			<div class="element positioned item-8 linked twitter-link">
+				<a href="#" target="_blank">cô dâu</a>
+			</div>
+			<div class="element positioned item-9 seconds"></div>
+			<div class="element positioned item-10"></div>
+		</div>		 
+	 </div>
+ </div>
+        <!-- jQuery Library -->
+        <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <!-- Foundation Scripts -->
+        <script src="js/foundation.min.js"></script>
+        
+        <script>
+          $(document).foundation();
+        </script>
+
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/tweetable.jquery.js"></script>     
+        <script src="js/jquery.prettyPhoto.js"></script>
+		<script>
+        // Countdown
+        var eventDate = new Date(); 
+        eventDate = new Date(eventDate.getFullYear()+1,-5,-9,9,0); 
+        $('#defaultCountdown').countdown({until: eventDate});
+		//###################################################################
+		</script>
+
+        <script src="js/main.js"></script>
+		</body>
