@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: encodeURI("https://formspree.io/hungnq.sealaw@gmail.com"),
+                url: encodeURI("https://formspree.io/hungnq.sealaw@gmail.com/"),
                 type: "POST",
                 data: $("#contactForm").serialize(),
 				dataType: "json",
