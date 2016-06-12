@@ -1,0 +1,245 @@
+/*###################################################################
+Responsive with media queries
+###################################################################*/
+@media only screen and (max-width: 1190px) {
+
+	.hasCountdown {
+		width: 700px;
+	}
+
+	#cubes-wrapp {
+		width: 700px;
+		height: 190px;
+		left: 36%;
+	}
+
+	#cubes-wrapp .element {
+		width: 100px;
+		height: 100px;
+	}
+
+	.countdown_amount {
+		font-size: 52px;
+	}
+
+	.countdown_section {
+		font-size: 20px;
+	}
+
+	#cubes-wrapp .element.days {
+		left: 192px;
+		top: -0;
+	}
+
+	#cubes-wrapp .element.item-3 {
+		top: -47px;
+	}
+
+	#cubes-wrapp .element.hours {
+		top: 0;
+		left: 366px;
+	}
+
+	#cubes-wrapp .element.minutes {
+		top: 0;
+		left: 535px;
+	}
+
+	#cubes-wrapp .element.seconds {
+		top: 0;
+		left: 709px;
+	}
+
+	#cubes-wrapp .element.item-10 {
+		right: 54px;
+		top: -46px;
+	}
+
+	#cubes-wrapp .element.facebook-link {
+		left: 278px;
+		top: 79px;
+	}
+
+	#cubes-wrapp .element.facebook-link a, #cubes-wrapp .element.twitter-link a, #cubes-wrapp .element.item-5 a {
+		line-height: 197px;
+	}
+
+	#cubes-wrapp .element.item-5 {
+		left: 450px;
+		top: 79px;
+	}
+
+	#cubes-wrapp .element.twitter-link {
+		left: 623px;
+		top: 79px;
+	}
+
+	#cubes-wrapp .element.item-6 {
+		left: 771px;
+		top: 98px;
+	}
+}
+
+@media only screen and (max-width: 1110px) {
+	.aboutSection .bx-wrapper .bx-next {
+		right: 0;
+	}
+
+	.aboutSection .bx-wrapper .bx-prev {
+		left: 0;
+	}
+
+	#cubes-wrapp {
+		width: 735px;
+	}
+
+	.row .row {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.slide-holder-circle {
+		display: none;
+	}
+
+	#grid {
+		width: 770px;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+
+	#mix-controls {
+		width: 740px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1005px) {
+	#cubes-wrapp {
+		width: 800px;
+	}
+
+	#grid {
+		width: 510px;
+	}
+
+	.buttonSection button {
+		width: 100%;
+		height: 58px;
+		padding: 0;
+	}
+
+	#aboutSection .large-6 {
+		width: 100%;
+	}
+
+	.footer button, .footer .large-4 > a {
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (max-width: 766px) {
+	.logo-holder a {
+		display: block;
+		text-align: center;
+	}
+
+
+	#cubes-wrapp {
+		position: relative;
+		width: auto;
+		left: auto;
+		top: auto;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+
+	#cubes-wrapp .element {
+		position: relative;
+		margin-right: 80px;
+	}
+
+	#cubes-wrapp .element.item-1, #cubes-wrapp .element.item-3, #cubes-wrapp .element.item-4, #cubes-wrapp .element.item-6, #cubes-wrapp .element.item-7, #cubes-wrapp .element.item-9, #cubes-wrapp .element.item-10 {
+		display: none;
+	}
+
+	#cubes-wrapp .element.facebook-link, #cubes-wrapp .element.item-5, #cubes-wrapp .element.twitter-link {
+		left: auto;
+		top: auto;
+	}
+
+	.hasCountdown {
+		width: 100%;
+	}
+
+	#cubes-wrapp {
+		width: 540px;
+		position: absolute;
+		top: auto;
+		left: 57%;
+		bottom: 10%;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+	.aboutSection .large-6:first-child {
+		padding-right: 0.9375em;
+	}
+
+	#mix-controls li {
+		margin: 0;
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+
+	#mix-controls {
+		width: 100%;
+	}
+
+	.landing-container {
+		top: 10%;
+		padding-bottom: 80px;
+	}
+}
+
+
+
+@media only screen and (max-width: 565px) {
+	#cubes-wrapp {
+		display: none;
+	}
+
+	.hasCountdown {
+		top: 45%;
+	}
+
+	.open-window {
+		padding: 0;
+	}
+
+	#grid {
+		width: 246px;
+	}
+
+	.bx-controls-direction, .tweets {
+		display: none;
+	}
+
+	.drop-container {
+		padding: 0;
+		padding-top: 30px;
+	}
+
+
+}

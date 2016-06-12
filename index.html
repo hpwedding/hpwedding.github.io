@@ -28,14 +28,19 @@
     ================================================== -->
     <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
     <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
+	
+	<!--Gallery-->
+	
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/styles.css">
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -56,7 +61,8 @@
         <ul class="nav navmenu-nav"> <!--- Menu -->
             <li><a href="#home" class="page-scroll">Home</a></li>
             <li><a href="#love-story" class="page-scroll">Love story</a></li>
-            <li><a href="#services" class="page-scroll">Events &amp; Parties</a></li>		
+            <li><a href="#services" class="page-scroll">Events &amp; Parties</a></li>
+			<li><a href="#gallerySection" class="page-scroll">Gallery</a></li>					
 			<li><a href="#clients" class="page-scroll">Fun Fact</a></li>
             <li><a href="#about-us" class="page-scroll">About Us</a></li>
             <li><a href="#contact" class="page-scroll">Your wishes</a></li>
@@ -182,7 +188,7 @@
     </div>
 
     <!-- Portfolio Section -->
-    <div id="works">
+    <!--<div id="works">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
@@ -253,21 +259,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Branding</h5>
-                                    <p class="lead">Metalbrand</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
-                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
+			</div>
         </div>
         <div class="space"></div>
         <div class="text-center">
@@ -275,8 +267,78 @@
             <br>
             <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
         </div>
-    </div>
+    </div>-->
+<!-- Gallery Container -->
+        <div id="gallerySection" class="row mixitup">
+          <div class="large-12 columns">
+            <h5>Gallery</h5>
+          </div>
+          <div class="large-12 columns mix-wrapper">
+            <ul id="mix-controls">
+                <li class="filter" data-filter="gloom">Chú Rể</li>
+                <li class="filter" data-filter="bride">Cô Dâu</li>
+                <li class="filter" data-filter="normal-life">Đời thường</li>
+                <li class="filter" data-filter="wedding">Đám cưới</li>
+            </ul>
 
+            <ul id="grid">
+              <li class="mix gloom">
+                <a rel="prettyPhoto" href="img/gallery/006.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/006.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+              <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/007.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/007.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+              <li class="mix bride">
+                <a rel="prettyPhoto" href="img/gallery/013.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/013.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+               <li class="mix gloom">
+                <a rel="prettyPhoto" href="img/gallery/002.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/002.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+            <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/008.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/008.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+            
+              <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/015.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/015.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+              <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/009.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/009.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+              <li class="mix gloom">
+                <a rel="prettyPhoto" href="img/gallery/012.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/012.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+            </ul>
+          </div>
+		  <div class="text-center">
+            <a href="#" class="btn read-more-btn">Xem thêm ảnh</a>
+            <br>
+            <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
+		</div>
+        </div>
     <!-- Clients Section -->
     <div id="clients">
         <div class="overlay">
@@ -373,9 +435,10 @@
                   </div>
 
                   <div class="item">
-                    <h3>Fusce dapibus, tellus ac cursus commodo, tortor<br> mauris condimentum. Duis mollis, est non commodo luctus, nisi erat </h3>
+                    <h3>VUI NGÀY VU QUY:<br> Mẹ chúc hai con trăm năm hạnh phúc!<br> Sớm có cháu cho bố mẹ mừng.<br> Sẽ là dâu hiền, rể thảo!<br> Luôn yêu thương, giúp đỡ nhau.<br>
+					Trong cuộc sống dù: <br> giàu sang, phú quý?<br>hay nghèo bần khổ ải.<br>hãy cố gắng vượt qua.<br>Dìu dắt nhau sống đến trọn đời.<br>Mẹ yêu các con nhiều lắm</h3>
                     <br>
-                    <h6>Kai, Web Geekster</h6>
+                    <h6>Mẹ chú rể</h6>
                   </div>
 
                   <div class="item">
@@ -470,26 +533,54 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+	 <!-- jQuery Library -->
+    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
-
+	
+	<!--galery-->
+    <script src="js/pulsate.jquery.js"></script>
+	<script src="js/tweetable.jquery.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+	<!--End of gallery-->
     <script src="js/owl.carousel.js"></script>
     <script src="js/typed.js"></script>
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["Chúng tôi sắp làm đám cưới^1000", "Kính mời mọi người tham dự^1000" ,"Hôn lễ tổ chức vào 11:00 ngày 22/07/2016^1000"],
+            strings: ["Chúng tôi sắp làm đám cưới^1000", "Kính mời mọi người tham dự^1000" ,"Hôn lễ tổ chức vào 09:00 ngày 22/07/2016^1000","Hân hạnh được đón tiếp^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100
           });
       });
+	  // Pulsate
+        $('.linked').pulsate({
+          color: $('#cubes-wrapp .element').css("background-color"), // set the color of the pulse
+          reach: 15,                              // how far the pulse goes in px
+          speed: 600,                            // how long one pulse takes in ms
+          pause: 0,                               // how long the pause between pulses is in ms
+          glow: true,                             // if the glow should be shown too
+          repeat: false,                           // will repeat forever if true, if given a number will repeat for that many times
+          onHover: true                          // if true only pulsate if user hovers over the element
+        });
+		$('#grid').mixitup({
+          filterSelector: '.filter',
+          effects: ['fade','scale', 'blur'],
+          multiFilter: true,
+          showOnLoad: 'web-design logo-design branding photography',
+          easing: 'windback',
+          transitionSpeed: 916
+        });
     </script>
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
-
+	<script src="js/main.js"></script>
   </body>
 </html>
