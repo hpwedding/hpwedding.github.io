@@ -34,7 +34,13 @@
 	<link rel="stylesheet" href="css/prettyPhoto.css">
 	<link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="css/styles.css">
-    <!-- Stylesheet
+	
+	<!--css countdown section-->
+	<!--<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>-->
+        <link rel="stylesheet" href="css/jquery.countdown.css">
+    <!--<link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/styles.css">-->
+	<!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -51,6 +57,11 @@
     <![endif]-->
   </head>
   <body>
+	
+	<!--initial load-->
+	<div class="loader">
+          <img src="img/loader.GIF" alt="loader">
+    </div>
     <!-- Off Canvas Navigation
     ================================================== -->
 	<div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> <!--- Off Canvas Side Menu -->
@@ -78,7 +89,7 @@
             </nav>
 
             <div class="content">
-                <h4>Xin trân trọng thông báo</h4>
+                <h4></h4>
                 <hr>
                 <div class="header-text btn">
                     <h1><span id="head-title"></span></h1>
@@ -90,7 +101,34 @@
             </a>
         </div>
     </div>
-				
+	<!--countdown section-->
+	
+		<div class="countdown-container">
+			<div class="wrapper">
+				<div id="defaultCountdown"></div>	
+				<div id="cubes-wrapp">
+					<div class="element positioned item-1 days"></div>
+					<!--<div class="element positioned item-2 linked facebook-link">
+						<a href="https://www.facebook.com/hungnq.law" target="_blank"> chú rể </a>
+					</div>-->
+					<div class="element positioned item-2 linked facebook-link">
+						<a href="../index.html"> chú rể </a>
+					</div>
+					<div class="element positioned item-3"></div>
+					<div class="element positioned item-4 hours"></div>
+					<div class="element positioned item-5"></div>
+					<div class="element positioned item-6"></div>
+					<div class="element positioned item-7 minutes"></div>
+					<div class="element positioned item-8 linked twitter-link">
+						<a href="https://www.facebook.com/profile.php?id=100012089020396" target="_blank">cô dâu</a>
+					</div>
+					<div class="element positioned item-9 seconds"></div>
+					<div class="element positioned item-10"></div>
+				</div>		 
+			 </div>
+		</div>
+	
+	
     <!-- Meet Us Section -->
     <div id="love-story">
         <div class="container">
@@ -113,7 +151,7 @@
     <div id="overview-video">
         <div class="overlay">
             <div class="container">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/p8A3ULXgV3E?autoplay=1" frameborder="0" allowfullscreen>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/bs7u95QlCxs?autoplay=1" frameborder="0" allowfullscreen>
 				<!--<span class="fa fa-play"></span>-->
 				</iframe>
             </div>
@@ -187,87 +225,6 @@
         </div>
     </div>
 
-    <!-- Portfolio Section -->
-    <!--<div id="works">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="section-title">
-                        <h2>GALLERY</h2>
-                        <hr>
-                    </div>
-                    <p>Bộ sưu tập những tấm ảnh hổ báo nhất của cô dâu và chú rể</p>
-                </div>
-            </div>
-            <div class="space"></div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Logo Design</h5>
-                                    <p class="lead">Client Seal</p>
-                                    <div class="hline"></div>
-                                </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Stationery</h5>
-                                    <p class="lead">Design Project</p>
-                                    <div class="hline"></div>
-                                </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Branding</h5>
-                                    <p class="lead">Metalbrand</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
-                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Business Card</h5>
-                                    <p class="lead">Clothing Line</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
-                            <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
-                        </div>
-                    </div>
-                </div>
-			</div>
-        </div>
-        <div class="space"></div>
-        <div class="text-center">
-            <a href="#" class="btn read-more-btn">Xem thêm ảnh</a>
-            <br>
-            <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
-        </div>
-    </div>-->
 <!-- Gallery Container -->
         <div id="gallerySection" class="row mixitup">
           <div class="large-12 columns">
@@ -275,60 +232,135 @@
           </div>
           <div class="large-12 columns mix-wrapper">
             <ul id="mix-controls">
-                <li class="filter" data-filter="gloom">Chú Rể</li>
+                <li class="filter" data-filter="wedding">Đám cưới</li>
+				<li class="filter" data-filter="gloom">Chú Rể</li>
                 <li class="filter" data-filter="bride">Cô Dâu</li>
                 <li class="filter" data-filter="normal-life">Đời thường</li>
-                <li class="filter" data-filter="wedding">Đám cưới</li>
             </ul>
 
             <ul id="grid">
-              <li class="mix gloom">
-                <a rel="prettyPhoto" href="img/gallery/006.jpg">
-                  <span class="hoverEffect"></span>
-                  <img src="img/gallery/006.jpg" height="214" width="246" alt="Featured Image">
-                </a>
-              </li>
               <li class="mix wedding">
-                <a rel="prettyPhoto" href="img/gallery/007.jpg">
+                <a rel="prettyPhoto" href="img/gallery/wedding1 - Copy.jpg">
                   <span class="hoverEffect"></span>
-                  <img src="img/gallery/007.jpg" height="214" width="246" alt="Featured Image">
+                  <img src="img/gallery/wedding1.jpg" height="214" width="246" alt="Featured Image">
                 </a>
               </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding2 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding2.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding3 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding3.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding4 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding4.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding5 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding5.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding6 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding6.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding7 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding7.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix wedding">
+                <a rel="prettyPhoto" href="img/gallery/wedding8 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/wedding8.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+              <li class="mix gloom">
+                <a rel="prettyPhoto" href="img/gallery/gloom1 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/gloom1.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix gloom">
+                <a rel="prettyPhoto" href="img/gallery/gloom2 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/gloom1.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix bride">
+                <a rel="prettyPhoto" href="img/gallery/bride1 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/bride1.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li> 
               <li class="mix bride">
-                <a rel="prettyPhoto" href="img/gallery/013.jpg">
+                <a rel="prettyPhoto" href="img/gallery/bride2 - Copy.jpg">
                   <span class="hoverEffect"></span>
-                  <img src="img/gallery/013.jpg" height="214" width="246" alt="Featured Image">
+                  <img src="img/gallery/bride2.jpg" height="214" width="246" alt="Featured Image">
                 </a>
-              </li>
-               <li class="mix gloom">
-                <a rel="prettyPhoto" href="img/gallery/002.jpg">
-                  <span class="hoverEffect"></span>
-                  <img src="img/gallery/002.jpg" height="214" width="246" alt="Featured Image">
-                </a>
-              </li>
+              </li>              
             <li class="mix normal-life">
-                <a rel="prettyPhoto" href="img/gallery/008.jpg">
+                <a rel="prettyPhoto" href="img/gallery/normal-life1 - Copy.jpg">
                   <span class="hoverEffect"></span>
-                  <img src="img/gallery/008.jpg" height="214" width="246" alt="Featured Image">
+                  <img src="img/gallery/normal-life1.jpg" height="214" width="246" alt="Featured Image">
                 </a>
               </li>
             
               <li class="mix normal-life">
-                <a rel="prettyPhoto" href="img/gallery/015.jpg">
+                <a rel="prettyPhoto" href="img/gallery/normal-life2 - Copy.jpg">
                   <span class="hoverEffect"></span>
-                  <img src="img/gallery/015.jpg" height="214" width="246" alt="Featured Image">
+                  <img src="img/gallery/normal-life2.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>     
+				<li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/normal-life3 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/normal-life3.jpg" height="214" width="246" alt="Featured Image">
                 </a>
               </li>
+            
               <li class="mix normal-life">
-                <a rel="prettyPhoto" href="img/gallery/009.jpg">
+                <a rel="prettyPhoto" href="img/gallery/normal-life4 - Copy.jpg">
                   <span class="hoverEffect"></span>
-                  <img src="img/gallery/009.jpg" height="214" width="246" alt="Featured Image">
+                  <img src="img/gallery/normal-life4.jpg" height="214" width="246" alt="Featured Image">
                 </a>
               </li>
-              <li class="mix gloom">
-                <a rel="prettyPhoto" href="img/gallery/012.jpg">
+			  <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/normal-life5 - Copy.jpg">
                   <span class="hoverEffect"></span>
-                  <img src="img/gallery/012.jpg" height="214" width="246" alt="Featured Image">
+                  <img src="img/gallery/normal-life5.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+            
+              <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/normal-life6 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/normal-life6.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+			  <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/normal-life7 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/normal-life7.jpg" height="214" width="246" alt="Featured Image">
+                </a>
+              </li>
+            
+              <li class="mix normal-life">
+                <a rel="prettyPhoto" href="img/gallery/normal-life8 - Copy.jpg">
+                  <span class="hoverEffect"></span>
+                  <img src="img/gallery/normal-life8.jpg" height="214" width="246" alt="Featured Image">
                 </a>
               </li>
             </ul>
@@ -435,8 +467,9 @@
                   </div>
 
                   <div class="item">
-                    <h3>VUI NGÀY VU QUY:<br> Mẹ chúc hai con trăm năm hạnh phúc!<br> Sớm có cháu cho bố mẹ mừng.<br> Sẽ là dâu hiền, rể thảo!<br> Luôn yêu thương, giúp đỡ nhau.<br>
-					Trong cuộc sống dù: <br> giàu sang, phú quý?<br>hay nghèo bần khổ ải.<br>hãy cố gắng vượt qua.<br>Dìu dắt nhau sống đến trọn đời.<br>Mẹ yêu các con nhiều lắm</h3>
+                    <h3>VUI NGÀY VU QUY: Mẹ chúc hai con trăm năm hạnh phúc, luôn là dâu hiền, rể thảo, mãi yêu thương, giúp đỡ nhau.<br>
+					Trong cuộc sống dù giàu sang, phú quý hay bần cùng khổ ải, hãy cố gắng vượt qua, dìu dắt nhau sống đến trọn đời.<br>
+					Mẹ yêu các con nhiều lắm</h3>
                     <br>
                     <h6>Mẹ chú rể</h6>
                   </div>
@@ -473,18 +506,25 @@
             <div class="row">
                 <div class="col-md-3">
                     <address>
-                        <strong>Address</strong><br>
+                        <strong>Nhà Trai</strong><br>
                         <br>
                         Tổ dân phố 1<br>
-                        Phường Yên Nghĩa, Quận Hà Đông<br>
-                        Thành Phố Hà Nội, Việt Nam<br>
+                        Phường Yên Nghĩa,<br> Quận Hà Đông,<br>
+                        Thành Phố Hà Nội,<br> Việt Nam<br>
                         Phone: (+84) 972 998 765
-                        <ul class="social">
+						<ul class="social">
                             <li><a href="https://www.facebook.com/hungnq.law" target="_blank" alt="gloom"><span class="fa fa-facebook"></span></a></li>
+                        </ul>
+					</address>
+					<address>
+						<strong>Nhà Gái</strong><br>
+                        <br>
+                        Tổ dân phố Cáo Đỉnh<br>
+                        Phường Xuân Đỉnh,<br> Quận Bắc Từ Liêm,<br>
+                        Thành Phố Hà Nội,<br> Việt Nam<br>
+                        Phone: (+84) 1669 433 345
+                        <ul class="social">
 							<li><a href="https://www.facebook.com/profile.php?id=100012089020396" target="_blank" alt="bride"><span class="fa fa-facebook"></span></a></li>
-                            <!--<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>-->
                         </ul>
                     </address>
                 </div>
@@ -576,7 +616,8 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["Chúng tôi sắp làm đám cưới^1000", "Kính mời mọi người tham dự^1000" ,"Hôn lễ tổ chức vào 09:00 ngày 22/07/2016^1000","Hân hạnh được đón tiếp^1000"],
+            strings: ["Chúng tôi sắp làm đám cưới^1000", "Kính mời mọi người tham dự^1000" ,"Hôn lễ tổ chức vào 09:00 ngày 22/07/2016^1000","Hân hạnh được đón tiếp^1000",
+			"We are getting married^1000","Everyone please join us^1000","Wedding held at 09:00 AM 22 July 2016^1000","Please to welcome^1000" ],
             typeSpeed: 100,
             loop: true,
             startDelay: 100
@@ -601,6 +642,29 @@
           transitionSpeed: 916
         });
     </script>
+	<!--countdown section-->
+	<!-- jQuery đã có nên comment -->
+       <!-- <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+-->
+        <!-- Foundation Scripts -->
+        <script src="js/foundation.min.js"></script>
+        
+        <script>
+          $(document).foundation();
+        </script>
+
+        <script src="js/jquery.countdown.js"></script>
+       <!-- <script src="js/tweetable.jquery.js"></script>     
+        <script src="js/jquery.prettyPhoto.js"></script>
+		-->
+		<script>
+        // Countdown
+        var eventDate = new Date(); 
+        eventDate = new Date(eventDate.getFullYear()+1,-5,-9,9,0); 
+        $('#defaultCountdown').countdown({until: eventDate});
+		//###################################################################
+		</script>
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>

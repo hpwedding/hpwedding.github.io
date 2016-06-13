@@ -100,6 +100,702 @@ Gallery Container
 
 
 
+body.landing {
+	background-image: url(../img/bg-blurred.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.loader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #292929;
+	z-index: 9999999999;
+}
+
+.loader img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-moz-transform: translate(-50%);
+	-o-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+}
+
+
+#cubes-wrapp .element.slideshowoverlay, #cubes-wrapp .element.videooverlay {
+	background-color: rgba(255,255,255, 0.3);
+}
 
 
 
+
+
+
+
+/*###################################################################
+CountDown Container
+###################################################################*/
+
+.header {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.aboutSlide-wrapper {
+	background-color: #f0f0f0;
+}
+
+.countdown-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.countdown-container .wrapper {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#mainNav {
+	float: right;
+}
+
+#mainNav li {
+	display: inline-block;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+#mainNav li a {
+	color: #fff;
+	line-height: 80px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 5px;
+}
+
+
+#mainNav li a:hover {
+	border-bottom: 1px solid white;
+}
+
+
+#cubes-wrapp {
+	width: 1137px;
+	height: 150px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-moz-transform: translate(-50%);
+	-o-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+}
+
+
+#cubes-wrapp .element {
+	position: absolute;
+	float: left;
+	width: 190px;
+	height: 190px;
+	background-color: rgba(255, 255, 255, 0.2);
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	transform: rotate(135deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+#cubes-wrapp .element.item-3, #cubes-wrapp .element.item-6, #cubes-wrapp .element.item-10 {
+	width: 49px;
+	height: 49px;
+}
+
+
+#cubes-wrapp .element.days {
+	left: 42px;
+	top: -30px;
+}
+
+#cubes-wrapp .element.hours {
+	top: -30px;
+	left: 324px;
+}
+
+#cubes-wrapp .element.minutes {
+	top: -30px;
+	left: 604px;
+}
+
+#cubes-wrapp .element.seconds {
+	top: -30px;
+	left: 885px;
+}
+
+#cubes-wrapp .element.item-3 {
+	left: 253px;
+	top: -0px;
+}
+
+#cubes-wrapp .element.item-6 {
+	left: 575px;
+	top: 318px;
+}
+
+#cubes-wrapp .element.item-10 {
+	right: 92px;
+	top: -100px;
+}
+
+
+#cubes-wrapp .element.facebook-link {
+	background-color: #3c5a99;
+	left: 183px;
+	top: 109px;
+}
+
+#cubes-wrapp .element.twitter-link {
+	background-color: #3c5a99;
+	left: 745px;
+	top: 109px;
+}
+
+#cubes-wrapp .element.item-5 {
+	left: 464px;
+	top: 109px;
+}
+
+#cubes-wrapp .element.facebook-link a, #cubes-wrapp .element.twitter-link a, #cubes-wrapp .element.item-5 a {
+	position: relative;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	text-transform: lowercase;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 220px;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+
+#cubes-wrapp .element.facebook-link a:before {
+	content: url(../img/facebook-ico.png);
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+
+#cubes-wrapp .element.twitter-link a:before {
+	content: url(../img/facebook-ico.png);
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#cubes-wrapp .element.item-5 a:before {
+	content: url(../img/explore-ico.png);
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+
+
+#cubes-wrapp .element.positioned {
+	top: 20%;
+	opacity: 0;
+}
+
+.open-window {
+	padding: 0;
+	z-index: 100;
+	opacity: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	background-image: url(../img/button-open.png);
+	background-repeat: no-repeat;
+	box-shadow: none;
+	bottom: 40px;
+	left: 50%;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 33px;
+	height: 24px;
+}
+
+.open-window:hover, .open-window:active, .open-window:focus {
+	background-color: transparent;
+	outline: none;
+}
+
+
+.drop-container {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #525569;
+	padding-top: 60px;
+	padding-bottom: 140px;
+	-webkit-box-shadow: 0px -10px 25px rgba(0,0,0, 0.2) inset;
+	box-shadow: 0px -10px 25px rgba(0,0,0, 0.2) inset;
+}
+
+.drop-container .bx-wrapper .bx-viewport {
+	background-color: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.drop-container .bx-wrapper .bx-pager {
+	display: none;
+	visibility: hidden;
+}
+
+.drop-container .bxslider p {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.drop-container .bxslider li img {
+	left: 50%;
+	position: relative;
+	margin-left: -23px;
+}
+
+.drop-container .bxslider li span {
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	display: block;
+}
+
+.drop-container .bx-wrapper .bx-controls-direction a {
+	top: 120%;
+}
+
+.drop-container .bx-wrapper .bx-prev {
+	background-image: url(../img/arrow-left.png);
+}
+
+.drop-container .bx-wrapper .bx-next {
+	background-image: url(../img/arrow-right.png);
+}
+
+.tweetList {
+	padding-top: 5px;
+}
+
+.tweetList li p, #tweet_loader {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.tweetList li p a {
+	color: #1b446e;
+}
+
+.tweetList li: {
+	position: relative;
+}
+
+.tweetList li:before {
+	position: relative;
+	margin-left: -20px;
+	left: 50%;
+	content: url(../img/twitter-ico.png);
+}
+
+.toggle-container {
+	opacity: 0;
+	height: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*###################################################################
+Responsive with media queries
+###################################################################*/
+
+@media only screen and (max-width: 1190px) {
+
+	.hasCountdown {
+		width: 700px;
+	}
+
+	#cubes-wrapp {
+		width: 700px;
+		height: 190px;
+		left: 36%;
+	}
+
+	#cubes-wrapp .element {
+		width: 100px;
+		height: 100px;
+	}
+
+	.countdown_amount {
+		font-size: 52px;
+	}
+
+	.countdown_section {
+		font-size: 20px;
+	}
+
+	#cubes-wrapp .element.days {
+		left: 192px;
+		top: -0;
+	}
+
+	#cubes-wrapp .element.item-3 {
+		top: -47px;
+	}
+
+	#cubes-wrapp .element.hours {
+		top: 0;
+		left: 366px;
+	}
+
+	#cubes-wrapp .element.minutes {
+		top: 0;
+		left: 535px;
+	}
+
+	#cubes-wrapp .element.seconds {
+		top: 0;
+		left: 709px;
+	}
+
+	#cubes-wrapp .element.item-10 {
+		right: 54px;
+		top: -46px;
+	}
+
+	#cubes-wrapp .element.facebook-link {
+		left: 278px;
+		top: 79px;
+	}
+
+	#cubes-wrapp .element.facebook-link a, #cubes-wrapp .element.twitter-link a, #cubes-wrapp .element.item-5 a {
+		line-height: 197px;
+	}
+
+	#cubes-wrapp .element.item-5 {
+		left: 450px;
+		top: 79px;
+	}
+
+	#cubes-wrapp .element.twitter-link {
+		left: 623px;
+		top: 79px;
+	}
+
+	#cubes-wrapp .element.item-6 {
+		left: 771px;
+		top: 98px;
+	}
+}
+
+@media only screen and (max-width: 1110px) {
+
+	#cubes-wrapp {
+		width: 735px;
+	}
+
+	.row .row {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.slide-holder-circle {
+		display: none;
+	}
+
+	#grid {
+		width: 770px;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+
+	#mix-controls {
+		width: 740px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1005px) {
+	#cubes-wrapp {
+		width: 800px;
+	}
+
+	#grid {
+		width: 510px;
+	}
+
+	.buttonSection button {
+		width: 100%;
+		height: 58px;
+		padding: 0;
+	}
+
+}
+
+@media only screen and (max-width: 766px) {
+
+
+	#mainNav {
+		width: 455px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#cubes-wrapp {
+		position: relative;
+		width: auto;
+		left: auto;
+		top: auto;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+
+	#cubes-wrapp .element {
+		position: relative;
+		margin-right: 80px;
+	}
+
+	#cubes-wrapp .element.item-1, #cubes-wrapp .element.item-3, #cubes-wrapp .element.item-4, #cubes-wrapp .element.item-6, #cubes-wrapp .element.item-7, #cubes-wrapp .element.item-9, #cubes-wrapp .element.item-10 {
+		display: none;
+	}
+
+	#cubes-wrapp .element.facebook-link, #cubes-wrapp .element.item-5, #cubes-wrapp .element.twitter-link {
+		left: auto;
+		top: auto;
+	}
+
+	.hasCountdown {
+		width: 100%;
+	}
+
+	#cubes-wrapp {
+		width: 540px;
+		position: absolute;
+		top: auto;
+		left: 57%;
+		bottom: 10%;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+
+
+	#mix-controls li {
+		margin: 0;
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+
+	#mix-controls {
+		width: 100%;
+	}
+
+	
+	.landing-container {
+		top: 10%;
+		padding-bottom: 80px;
+	}
+}
+
+
+
+@media only screen and (max-width: 565px) {
+	#cubes-wrapp {
+		display: none;
+	}
+
+	.hasCountdown {
+		top: 45%;
+	}
+
+	.open-window {
+		padding: 0;
+	}
+
+	#grid {
+		width: 246px;
+	}
+
+	.smallNavigation {
+		display: block;
+	}
+
+	#mainNav li {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+
+	#mainNav {
+		position: relative;
+		z-index: 9999;
+		width: 100%;
+		margin: 0;
+		overflow: hidden;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		-ms-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	#mainNav li a {
+		display: block;
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 1;
+		background-color: #cccccc;
+		color: #515050;
+		border-color: #000;
+	}
+
+	#mainNav li a:hover {
+		border-color: #000;
+		background-color: #c0392b;
+		color: #fff;
+	}
+
+	.smallNavigation {
+		margin-top: 20px;
+		display: block;
+		padding: 10px;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 300;
+		border: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		width: 100%;
+		float: none;
+		background-color: #2284a1;
+	}
+
+	#mainNav.deactiveNav {
+		height: 0;
+		opacity: 0;
+		display: none;
+	}
+
+	.bx-controls-direction, .tweets {
+		display: none;
+	}
+
+	.drop-container {
+		padding: 0;
+		padding-top: 30px;
+	}
+
+
+}
