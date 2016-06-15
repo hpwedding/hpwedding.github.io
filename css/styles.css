@@ -1,3 +1,138 @@
+/*###################################################################
+About Container
+###################################################################*/
+
+.aboutSlide-wrapper {
+	background-color: #f0f0f0;
+}
+
+
+.aboutSection {
+	padding-top: 100px;
+}
+
+.aboutSection .large-6:first-child {
+	padding-right: 100px;
+}
+
+.aboutSection .large-6 h2 {
+	font-weight: 200;
+	margin-top: 0;
+	font-family: 'Lato', sans-serif;
+	color: #2b2b2b;
+	text-transform: lowercase;
+	font-size: 56px;
+	margin-bottom: 30px;
+}
+
+.aboutSection .large-6 p {
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+	font-weight: 300;
+}
+
+.aboutSection .bx-wrapper .bx-viewport {
+	background-color: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.aboutSection .bx-wrapper .bx-pager {
+	display: none;
+	visibility: hidden;
+}
+
+.aboutSection .bx-wrapper .bx-controls-direction a {
+	width: 62px;
+	height: 62px;
+	top: 50%;
+}
+
+.aboutSection .bx-wrapper .bx-prev {
+	/**background-image: url(../img/about-arrow-left.png);*//
+	left: -40px;
+}
+
+.aboutSection .bx-wrapper .bx-next {
+	/*background-image: url(../img/about-arrow-right.png);*/
+	right: -40px;
+}
+
+.bxslider li {
+	position: relative;
+}
+
+.about-slider .slide-holder-circle {
+	/*position: absolute;*/
+	width: 100%;
+	height: 100%;
+	border-radius: 70%;
+}
+
+
+.aboutSection .slide-holder > a {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background-color: #353950;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+}
+.aboutSection .slide-holder > img {
+	vertical-align: middle;
+	max-width: 100%;
+    display: block;
+	    height: auto;
+		border: 0;
+		width: 705px;
+}
+.aboutSection .slide-holder a.info1 {
+	top: 190px;
+	left: 100px;
+}
+
+.aboutSection .slide-holder a.info2 {
+	bottom: 100px;
+	left: 140px;
+}
+
+
+
+.aboutSection .slide-holder a:before {
+	content: attr(data-description);
+	opacity: 0;
+	width: 200px;
+	height: auto;
+	bottom: 0;
+	position: absolute;
+	left: 50%;
+	font-size: 13px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	padding: 10px;
+	background-color: #353950;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.aboutSection .slide-holder a:hover:before {
+	opacity: 1;
+	bottom: 130%;
+}
+
+.aboutSection .bx-wrapper {
+	padding-top: 80px;
+}
 
 
 
