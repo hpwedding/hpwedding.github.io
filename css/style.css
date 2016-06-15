@@ -89,9 +89,19 @@ a:focus{
 	border-radius: 0;
 	padding: 10px 30px;
 	height: 100px;
+	color: #00e6e6;
+	
+}
+.countdown-v2{
+	/*border: 1px solid #000000;
+	border-radius: 0;
+	padding: 10px 30px;
+	height: 100px;*/
+	color: #00e6e6;
+	font-size: 22px;
 }
 .header-text.btn:hover{
-	color: inherit;
+	color: #000000;
 }
 .header-text.btn:focus, 
 .header-text.btn:active:focus, 

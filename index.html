@@ -77,6 +77,7 @@
 			<li><a href="#clients" class="page-scroll">Fun Fact</a></li>
             <li><a href="#about-us" class="page-scroll">About Us</a></li>
             <li><a href="#contact" class="page-scroll">Your wishes</a></li>
+			<li><a href="../index.html" >Countdown</a></li>
         </ul><!--- End Menu -->
     </div> <!--- End Off Canvas Side Menu -->
 
@@ -87,54 +88,31 @@
             <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
                 <span class="fa fa-bars"></span>
             </nav>
-
+			<!--
             <div class="content">
-                
+                <div id="countbox1" class="countdown-v2" ></div>
                 <hr>
                 <div class="header-text btn">
-                    <h1><span id="head-title"></span></h1>
+                   <h1><span id="head-title"></span></h1>
                 </div>
             </div>
-
+				-->
             <a href="#meet-us" class="down-btn page-scroll">
                 <span class="fa fa-angle-down"></span>
             </a>
         </div>
     </div>
-	<!--countdown section-->
-	
-		<div class="countdown-container">
-			<div class="wrapper">
-				<div id="defaultCountdown"></div>	
-				<div id="cubes-wrapp">
-					<div class="element positioned item-1 days"></div>
-					<!--<div class="element positioned item-2 linked facebook-link">
-						<a href="https://www.facebook.com/hungnq.law" target="_blank"> chú rể </a>
-					</div>-->
-					<div class="element positioned item-2 linked facebook-link">
-						<a href="../index.html"> chú rể </a>
-					</div>
-					<div class="element positioned item-3"></div>
-					<div class="element positioned item-4 hours"></div>
-					<div class="element positioned item-5"></div>
-					<div class="element positioned item-6"></div>
-					<div class="element positioned item-7 minutes"></div>
-					<div class="element positioned item-8 linked twitter-link">
-						<a href="https://www.facebook.com/profile.php?id=100012089020396" target="_blank">cô dâu</a>
-					</div>
-					<div class="element positioned item-9 seconds"></div>
-					<div class="element positioned item-10"></div>
-				</div>		 
-			 </div>
-		</div>
-	
-	
+
     <!-- Meet Us Section -->
     <div id="love-story">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
+						<div class="header-text btn">
+							<h1><span id="head-title"><br></span></h1>
+						</div>
+						<div id="countbox1" class="countdown-v2" ><br></div>
                         <h2>Love Story</h2>
                         <hr>
                     </div>
@@ -653,7 +631,7 @@
         <script>
           $(document).foundation();
         </script>
-
+		
         <script src="js/jquery.countdown.js"></script>
        <!-- <script src="js/tweetable.jquery.js"></script>     
         <script src="js/jquery.prettyPhoto.js"></script>
@@ -665,6 +643,8 @@
         $('#defaultCountdown').countdown({until: eventDate});
 		//###################################################################
 		</script>
+		<!--Countdown v.2-->
+		<script src="js/countdown2.js"></script>
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
